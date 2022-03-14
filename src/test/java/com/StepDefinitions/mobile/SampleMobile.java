@@ -45,7 +45,7 @@ public class SampleMobile extends Action{
 			
 		log.info("In launch browser");
 		driverUtils.initializeDrivers();
-		addCommentAndScreenshot_Web("web page is opened");
+		
 		}
 		catch(Exception e) {
 			log.info(e.getMessage());

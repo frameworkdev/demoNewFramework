@@ -144,8 +144,7 @@ public class DriverUtils extends Action{
 
 		try {
 			//switch needs to be added
-			
-			getWebDriver(device).quit();
+			webDriver.quit();
 			log.info("WebDriver is closed");
 
 		} catch (Exception e) {
