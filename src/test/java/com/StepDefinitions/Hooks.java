@@ -6,8 +6,7 @@ import cucumber.api.java.Before;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.util.Actions;
-import com.constants.*;
+import com.util.Action;
 
 import com.drivers.DriverUtils;
 
@@ -21,7 +20,7 @@ public class Hooks {
 	DriverUtils driverUtils;
 
 	
-	private static final Logger sLogger = LogManager.getLogger(Hooks.class.getName());
+	private static final Logger log = LogManager.getLogger(Hooks.class.getName());
 
 	public Hooks(DriverUtils aDriverUtils) {
 		this.driverUtils = aDriverUtils;
@@ -31,13 +30,13 @@ public class Hooks {
 	
 	@Before
 	public void init(Scenario scenario) {
-		sLogger.info("Entered init method");
-		sLogger.info("Start time is:"+startTime);
+		log.info("Entered init method");
+		log.info("Start time is:"+startTime);
 		driverUtils.setScenario(scenario);
-		Actions.extentSetUp();
-		sLogger.info("#######################" + repeat("#", scenario.getName().length()) + "#######################");
-		sLogger.info("###########  START OF SCENARIO : {}", scenario.getName() + "  ###########");
-		sLogger.info("#######################" + repeat("#", scenario.getName().length()) + "#######################");
+		Action.extentSetUp();
+		log.info("=======================" + repeat("=", scenario.getName().length()) + "=======================");
+		log.info("===========  START OF SCENARIO : {}", scenario.getName() + "  ===========");
+		log.info("=======================" + repeat("=", scenario.getName().length()) + "=======================");
 	}
 
 	@After
@@ -48,9 +47,9 @@ public class Hooks {
 		boolean isScenarioFailed = (scenario.getStatus().equalsIgnoreCase("Failed"))? true : false;
 		System.out.println("isScenarioFailed------------------------"+isScenarioFailed);
 		driverUtils.closeDrivers(isScenarioFailed);
-		sLogger.info("##########################" + repeat("#", scenario.getName().length() + scenario.getStatus().length() ) + "###########################");
-		sLogger.info("### END OF SCENARIO : {}, Time taken:{}, Status:{} ###", scenario.getName(), formatDuration(Constants.sysTime - startTime, "HH:mm:ss"), capitalize(scenario.getStatus()));
-		sLogger.info("##########################" + repeat("#", scenario.getName().length() + scenario.getStatus().length() ) + "###########################");
+		log.info("==========================" + repeat("=", scenario.getName().length() + scenario.getStatus().length() ) + "===========================");
+		log.info("=== END OF SCENARIO : {}, Time taken:{}, Status:{} ===", scenario.getName(), formatDuration( System.currentTimeMillis() - startTime, "HH:mm:ss"), capitalize(scenario.getStatus()));
+		log.info("==========================" + repeat("=", scenario.getName().length() + scenario.getStatus().length() ) + "===========================");
 
 	}
 }
