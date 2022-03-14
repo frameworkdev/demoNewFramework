@@ -1,0 +1,12 @@
+{
+
+	"chrome": {
+		"location": "remote",
+		"browser": "CHROME"
+	},
+	"firefox": {
+		"location": "remote",
+		"browser": "FIREFOX"
+	}
+	
+}
