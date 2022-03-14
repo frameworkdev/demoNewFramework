@@ -18,7 +18,11 @@ public class WebHomePage extends WebDriverActions{
 		
 	}
 	
-	@FindBy(xpath = "")
-	public WebElement element;
+	@FindBy(xpath = "//pre[contains(text(),'MobileGambling')]")
+	public WebElement mobileGameing;
+	
+	
+	
+	
 
 }
