@@ -1,20 +1,395 @@
-2022-03-14 14:03:07,304 INFO  com.Runner.TestRunner - In @test -- Testrunner
-2022-03-14 14:03:07,854 INFO  com.StepDefinitions.Hooks - Entered init method
-2022-03-14 14:03:07,855 INFO  com.StepDefinitions.Hooks - Start time is:1647246787854
-2022-03-14 14:03:07,864 INFO  com.StepDefinitions.Hooks - ====================================================================
-2022-03-14 14:03:07,869 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
-2022-03-14 14:03:07,870 INFO  com.StepDefinitions.Hooks - ====================================================================
-2022-03-14 14:03:08,179 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
-2022-03-14 14:03:24,214 INFO  com.StepDefinitions.Hooks - =================================================================================
-2022-03-14 14:03:24,220 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:16, Status:Failed ===
-2022-03-14 14:03:24,221 INFO  com.StepDefinitions.Hooks - =================================================================================
-2022-03-14 14:05:48,620 INFO  com.Runner.TestRunner - In @test -- Testrunner
-2022-03-14 14:05:49,153 INFO  com.StepDefinitions.Hooks - Entered init method
-2022-03-14 14:05:49,153 INFO  com.StepDefinitions.Hooks - Start time is:1647246949153
-2022-03-14 14:05:49,159 INFO  com.StepDefinitions.Hooks - ====================================================================
-2022-03-14 14:05:49,162 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
-2022-03-14 14:05:49,162 INFO  com.StepDefinitions.Hooks - ====================================================================
-2022-03-14 14:05:49,707 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
-2022-03-14 14:06:04,596 INFO  com.StepDefinitions.Hooks - =================================================================================
-2022-03-14 14:06:04,601 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:15, Status:Passed ===
-2022-03-14 14:06:04,601 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:33:40,864 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 13:33:41,279 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 13:33:41,315 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 13:34:43,401 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 13:34:43,650 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 13:34:43,651 INFO  com.StepDefinitions.Hooks - Start time is:1647331483650
+2022-03-15 13:34:43,655 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:34:43,656 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 13:34:43,662 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:34:43,873 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 13:34:51,674 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 13:34:51,933 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 13:34:52,959 DEBUG com.StepDefinitions.mobile.SampleMobile - null
+2022-03-15 13:34:53,764 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 13:34:53,765 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:34:53,779 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:10, Status:Failed ===
+2022-03-15 13:34:53,780 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:38:56,364 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 13:38:56,614 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 13:38:56,614 INFO  com.StepDefinitions.Hooks - Start time is:1647331736614
+2022-03-15 13:38:56,618 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:38:56,620 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 13:38:56,620 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:38:56,783 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 13:39:03,089 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 13:39:03,424 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 13:39:04,571 DEBUG com.StepDefinitions.mobile.SampleMobile - null
+2022-03-15 13:39:05,370 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 13:39:05,370 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:39:05,379 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:08, Status:Failed ===
+2022-03-15 13:39:05,379 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:51:32,804 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 13:51:33,019 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 13:51:33,019 INFO  com.StepDefinitions.Hooks - Start time is:1647332493018
+2022-03-15 13:51:33,023 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:51:33,024 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 13:51:33,024 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:51:33,168 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 13:51:41,237 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 13:51:41,535 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 13:51:42,190 DEBUG com.StepDefinitions.web.SBCOM - null
+2022-03-15 13:51:42,875 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 13:51:42,876 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:51:42,886 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:09, Status:Failed ===
+2022-03-15 13:51:42,886 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:53:46,734 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 13:53:46,957 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 13:53:46,957 INFO  com.StepDefinitions.Hooks - Start time is:1647332626957
+2022-03-15 13:53:46,960 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:53:46,962 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 13:53:46,962 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:53:47,102 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 13:53:53,258 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 13:53:53,575 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 13:53:54,658 DEBUG com.StepDefinitions.web.SBCOM - null
+2022-03-15 13:53:55,354 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 13:53:55,355 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:53:55,365 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:08, Status:Failed ===
+2022-03-15 13:53:55,365 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:55:46,357 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 13:55:46,580 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 13:55:46,580 INFO  com.StepDefinitions.Hooks - Start time is:1647332746579
+2022-03-15 13:55:46,584 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:55:46,585 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 13:55:46,585 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:55:46,733 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 13:55:52,681 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 13:55:52,920 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 13:55:53,605 DEBUG com.StepDefinitions.web.SBCOM - null
+2022-03-15 13:55:54,318 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 13:55:54,318 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:55:54,322 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:07, Status:Failed ===
+2022-03-15 13:55:54,322 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:56:34,502 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 13:56:34,777 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 13:56:34,777 INFO  com.StepDefinitions.Hooks - Start time is:1647332794777
+2022-03-15 13:56:34,781 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:56:34,784 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 13:56:34,784 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:56:34,956 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 13:56:40,880 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 13:56:47,439 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 13:56:51,599 DEBUG com.StepDefinitions.web.SBCOM - null
+2022-03-15 13:56:52,335 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 13:56:52,336 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:56:52,345 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:17, Status:Failed ===
+2022-03-15 13:56:52,347 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:58:13,749 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 13:58:14,009 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 13:58:14,009 INFO  com.StepDefinitions.Hooks - Start time is:1647332894008
+2022-03-15 13:58:14,013 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:58:14,015 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 13:58:14,016 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 13:58:14,179 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 13:58:20,855 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 13:58:24,081 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 13:58:27,162 DEBUG com.StepDefinitions.web.SBCOM - null
+2022-03-15 13:58:27,896 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 13:58:27,896 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 13:58:27,905 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:13, Status:Failed ===
+2022-03-15 13:58:27,905 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 14:00:49,983 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 14:00:50,222 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 14:00:50,222 INFO  com.StepDefinitions.Hooks - Start time is:1647333050222
+2022-03-15 14:00:50,226 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 14:00:50,227 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 14:00:50,227 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 14:00:50,376 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 14:00:53,285 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 14:00:53,510 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 14:00:53,526 DEBUG com.StepDefinitions.web.SBCOM - null
+2022-03-15 14:00:54,212 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 14:00:54,213 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 14:00:54,223 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:03, Status:Failed ===
+2022-03-15 14:00:54,223 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 14:05:06,285 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 14:05:06,509 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 14:05:06,509 INFO  com.StepDefinitions.Hooks - Start time is:1647333306509
+2022-03-15 14:05:06,512 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 14:05:06,514 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 14:05:06,514 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 14:05:06,657 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 14:05:09,625 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 14:05:09,886 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 14:05:09,902 DEBUG com.StepDefinitions.web.SBCOM - null
+2022-03-15 14:05:10,582 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 14:05:10,583 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 14:05:10,595 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:04, Status:Failed ===
+2022-03-15 14:05:10,595 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 14:05:38,450 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 14:05:38,673 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 14:05:38,673 INFO  com.StepDefinitions.Hooks - Start time is:1647333338673
+2022-03-15 14:05:38,676 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 14:05:38,678 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 14:05:38,678 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 14:05:38,822 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 14:05:41,706 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 14:05:41,937 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 14:05:41,955 DEBUG com.StepDefinitions.web.SBCOM - null
+2022-03-15 14:05:42,625 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 14:05:42,625 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 14:05:42,635 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:03, Status:Failed ===
+2022-03-15 14:05:42,636 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 15:46:22,146 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 15:46:22,423 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 15:46:22,423 INFO  com.StepDefinitions.Hooks - Start time is:1647339382423
+2022-03-15 15:46:22,426 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 15:46:22,428 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 15:46:22,428 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 15:46:22,590 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 15:46:26,066 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 15:46:29,297 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 15:46:30,926 DEBUG com.StepDefinitions.web.SBCOM - <html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">MobileGambling 13.0.0.39069-22a906af
+VirtualSports 13.0.0.39069-22a906af
+VanillaFramework 12.5.0.10188-30e9bd248</pre></body></html>
+2022-03-15 15:46:32,379 DEBUG com.StepDefinitions.web.SBCOM - null
+2022-03-15 15:46:33,066 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 15:46:33,067 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 15:46:33,074 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:10, Status:Failed ===
+2022-03-15 15:46:33,074 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 15:53:49,450 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 15:53:49,675 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 15:53:49,675 INFO  com.StepDefinitions.Hooks - Start time is:1647339829675
+2022-03-15 15:53:49,679 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 15:53:49,680 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 15:53:49,681 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 15:53:49,826 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 15:53:52,774 INFO  com.StepDefinitions.mobile.SampleMobile - java.lang.InstantiationException: com.pages.web.WebHomePage
+2022-03-15 15:53:52,782 DEBUG com.StepDefinitions.web.SBCOM - java.lang.InstantiationException: com.pages.web.WebHomePage
+2022-03-15 15:53:53,453 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 15:53:53,454 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 15:53:53,464 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:03, Status:Failed ===
+2022-03-15 15:53:53,464 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 15:57:54,081 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 15:57:54,308 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 15:57:54,308 INFO  com.StepDefinitions.Hooks - Start time is:1647340074308
+2022-03-15 15:57:54,311 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 15:57:54,314 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 15:57:54,314 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 15:57:54,455 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 15:57:57,347 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 15:57:57,581 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 15:57:57,720 DEBUG com.StepDefinitions.web.SBCOM - 13.0.0.39069-22a906af
+VirtualSports
+2022-03-15 15:57:58,430 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 15:57:58,430 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 15:57:58,440 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:04, Status:Failed ===
+2022-03-15 15:57:58,440 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:01:14,789 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:01:15,028 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:01:15,028 INFO  com.StepDefinitions.Hooks - Start time is:1647340275028
+2022-03-15 16:01:15,031 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:01:15,033 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:01:15,033 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:01:15,183 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:01:18,021 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:01:18,215 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:01:18,364 DEBUG com.StepDefinitions.web.SBCOM - 1
+2022-03-15 16:01:19,051 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:01:19,051 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:01:19,055 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:04, Status:Failed ===
+2022-03-15 16:01:19,055 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:03:00,538 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:03:00,787 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:03:00,787 INFO  com.StepDefinitions.Hooks - Start time is:1647340380787
+2022-03-15 16:03:00,792 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:03:00,795 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:03:00,796 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:03:00,954 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:03:03,872 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:03:04,117 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:03:04,259 DEBUG com.StepDefinitions.web.SBCOM - [Ljava.lang.String;@7a0ef219
+2022-03-15 16:03:04,259 DEBUG com.StepDefinitions.web.SBCOM - MobileGambling
+2022-03-15 16:03:04,980 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:03:04,980 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:03:04,984 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:04, Status:Failed ===
+2022-03-15 16:03:04,984 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:03:38,643 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:03:38,894 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:03:38,895 INFO  com.StepDefinitions.Hooks - Start time is:1647340418894
+2022-03-15 16:03:38,900 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:03:38,902 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:03:38,902 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:03:39,061 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:03:42,042 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:03:42,239 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:03:42,379 DEBUG com.StepDefinitions.web.SBCOM - [Ljava.lang.String;@7a0ef219
+2022-03-15 16:03:42,380 DEBUG com.StepDefinitions.web.SBCOM - MobileGambling
+2022-03-15 16:03:43,109 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:03:43,109 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:03:43,112 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:04, Status:Failed ===
+2022-03-15 16:03:43,112 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:04:24,232 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:04:24,485 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:04:24,486 INFO  com.StepDefinitions.Hooks - Start time is:1647340464485
+2022-03-15 16:04:24,490 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:04:24,492 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:04:24,492 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:04:24,686 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:04:27,594 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:04:27,783 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:04:27,923 DEBUG com.StepDefinitions.web.SBCOM - 1
+2022-03-15 16:04:28,610 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:04:28,611 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:04:28,617 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:04, Status:Failed ===
+2022-03-15 16:04:28,617 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:07:33,116 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:07:33,349 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:07:33,349 INFO  com.StepDefinitions.Hooks - Start time is:1647340653349
+2022-03-15 16:07:33,352 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:07:33,354 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:07:33,354 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:07:33,506 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:07:36,329 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:07:36,576 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:07:36,744 DEBUG com.StepDefinitions.web.SBCOM - MobileGambling 13.0.0.39069-22a906af
+VirtualSports 13.0.0.39069-22a906af
+VanillaFramework 12.5.0.10188-30e9bd248
+2022-03-15 16:07:37,442 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:07:37,442 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:07:37,448 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:04, Status:Failed ===
+2022-03-15 16:07:37,449 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:08:47,630 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:08:47,876 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:08:47,876 INFO  com.StepDefinitions.Hooks - Start time is:1647340727876
+2022-03-15 16:08:47,881 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:08:47,883 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:08:47,883 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:08:48,028 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:08:50,861 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:08:51,119 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:08:51,263 DEBUG com.StepDefinitions.web.SBCOM - 13.0.0.39069-22a906af
+VirtualSports
+2022-03-15 16:08:51,981 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:08:51,982 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:08:51,987 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:04, Status:Failed ===
+2022-03-15 16:08:51,987 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:10:54,865 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:10:55,131 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:10:55,131 INFO  com.StepDefinitions.Hooks - Start time is:1647340855131
+2022-03-15 16:10:55,134 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:10:55,136 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:10:55,136 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:10:55,309 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:11:01,166 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:11:02,494 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:11:42,753 DEBUG com.StepDefinitions.web.SBCOM - 13.0.0.39069-22a906af
+VirtualSports
+2022-03-15 16:11:43,508 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:11:43,508 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:11:43,514 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:48, Status:Failed ===
+2022-03-15 16:11:43,515 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:14:07,477 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:14:07,744 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:14:07,744 INFO  com.StepDefinitions.Hooks - Start time is:1647341047744
+2022-03-15 16:14:07,748 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:14:07,750 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:14:07,750 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:14:07,910 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:14:14,308 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:14:15,472 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:15:43,331 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:15:43,618 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:15:43,618 INFO  com.StepDefinitions.Hooks - Start time is:1647341143618
+2022-03-15 16:15:43,623 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:15:43,625 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:15:43,626 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:15:43,795 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:15:50,245 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:15:51,779 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:16:37,488 DEBUG com.StepDefinitions.web.SBCOM - 13.0.0.39069-22a906af,VirtualSports
+2022-03-15 16:16:38,344 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:16:38,345 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:16:38,356 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:54, Status:Failed ===
+2022-03-15 16:16:38,357 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:18:19,540 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:18:19,974 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:18:19,974 INFO  com.StepDefinitions.Hooks - Start time is:1647341299974
+2022-03-15 16:18:19,981 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:18:19,985 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:18:19,985 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:18:20,198 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:18:23,791 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:18:24,088 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:18:24,274 DEBUG com.StepDefinitions.web.SBCOM - 13.0.0.39069-22a906af
+2022-03-15 16:18:24,278 INFO  com.util.Action - Verified [Screenshot]
+2022-03-15 16:18:24,536 DEBUG com.util.WebDriverActions - Verified
+2022-03-15 16:18:25,270 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:18:25,270 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:18:25,280 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:05, Status:Passed ===
+2022-03-15 16:18:25,280 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:28:17,945 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:28:18,345 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:28:18,345 INFO  com.StepDefinitions.Hooks - Start time is:1647341898344
+2022-03-15 16:28:18,352 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:28:18,356 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:28:18,356 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:28:18,610 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:28:22,387 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:28:22,660 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:28:22,895 DEBUG com.StepDefinitions.web.SBCOM - 13.0.0.39069-22a906af
+2022-03-15 16:28:22,900 INFO  com.util.Action - Verified [Screenshot]
+2022-03-15 16:28:23,103 DEBUG com.util.WebDriverActions - Verified
+2022-03-15 16:28:23,816 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:28:23,817 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:28:23,826 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:05, Status:Passed ===
+2022-03-15 16:28:23,827 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:29:56,810 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:29:57,158 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:29:57,159 INFO  com.StepDefinitions.Hooks - Start time is:1647341997158
+2022-03-15 16:29:57,165 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:29:57,168 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:29:57,168 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:29:57,365 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:30:00,353 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:30:00,658 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:30:01,955 DEBUG com.StepDefinitions.web.SBCOM - 13.0.0.39069-22a906af
+2022-03-15 16:30:01,962 INFO  com.util.Action - Verified [Screenshot]
+2022-03-15 16:30:02,228 DEBUG com.util.WebDriverActions - Verified
+2022-03-15 16:30:02,941 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:30:02,941 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:30:02,951 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:05, Status:Passed ===
+2022-03-15 16:30:02,951 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:31:07,245 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:31:07,555 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:31:07,555 INFO  com.StepDefinitions.Hooks - Start time is:1647342067555
+2022-03-15 16:31:07,560 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:31:07,562 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:31:07,562 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:31:07,791 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:31:10,726 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:31:10,978 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:31:11,747 DEBUG com.StepDefinitions.web.SBCOM - 13.0.0.39069-22a906af
+2022-03-15 16:31:11,755 INFO  com.util.Action - Verified [Screenshot]
+2022-03-15 16:31:12,002 DEBUG com.util.WebDriverActions - Verified
+2022-03-15 16:31:12,725 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:31:12,725 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:31:12,735 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:05, Status:Passed ===
+2022-03-15 16:31:12,735 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:31:55,740 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-15 16:31:56,161 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-15 16:31:56,161 INFO  com.StepDefinitions.Hooks - Start time is:1647342116161
+2022-03-15 16:31:56,166 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:31:56,168 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-15 16:31:56,168 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-15 16:31:56,365 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-15 16:31:59,167 INFO  com.util.Action - web page is opened [Screenshot]
+2022-03-15 16:31:59,429 DEBUG com.util.WebDriverActions - web page is opened
+2022-03-15 16:32:00,408 DEBUG com.StepDefinitions.web.SBCOM - 13.0.0.39069-22a906af
+2022-03-15 16:32:00,416 INFO  com.util.Action - Verified [Screenshot]
+2022-03-15 16:32:00,697 DEBUG com.util.WebDriverActions - Verified
+2022-03-15 16:32:01,371 INFO  com.drivers.DriverUtils - WebDriver is closed
+2022-03-15 16:32:01,371 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-15 16:32:01,382 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:05, Status:Passed ===
+2022-03-15 16:32:01,383 INFO  com.StepDefinitions.Hooks - =================================================================================

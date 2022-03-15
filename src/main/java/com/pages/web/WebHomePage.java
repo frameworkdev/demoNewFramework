@@ -13,12 +13,12 @@ public class WebHomePage extends WebDriverActions{
 	
 	public WebHomePage(DriverUtils aDriverUtils, String aDevice) {
 		super(aDriverUtils, aDevice);
-		System.out.println(aDriverUtils.getWebDriver(aDevice));
-		PageFactory.initElements(driverUtils.getWebDriver(), this);
+		PageFactory.initElements(driverUtils.getWebDriver(aDevice), this);
+		
 		
 	}
 	
-	@FindBy(xpath = "//*[]")
-	public WebElement mobileGameing;
+	@FindBy(xpath = "//*[contains(text(),'MobileGambling')]")
+	public WebElement txt_mobileGambling;
 
 }

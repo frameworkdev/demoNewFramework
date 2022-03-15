@@ -1,0 +1,20 @@
+2022-03-14 14:03:07,304 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-14 14:03:07,854 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-14 14:03:07,855 INFO  com.StepDefinitions.Hooks - Start time is:1647246787854
+2022-03-14 14:03:07,864 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-14 14:03:07,869 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-14 14:03:07,870 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-14 14:03:08,179 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-14 14:03:24,214 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-14 14:03:24,220 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:16, Status:Failed ===
+2022-03-14 14:03:24,221 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-14 14:05:48,620 INFO  com.Runner.TestRunner - In @test -- Testrunner
+2022-03-14 14:05:49,153 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-03-14 14:05:49,153 INFO  com.StepDefinitions.Hooks - Start time is:1647246949153
+2022-03-14 14:05:49,159 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-14 14:05:49,162 INFO  com.StepDefinitions.Hooks - ===========  START OF SCENARIO : Verifying Site Version  ===========
+2022-03-14 14:05:49,162 INFO  com.StepDefinitions.Hooks - ====================================================================
+2022-03-14 14:05:49,707 INFO  com.StepDefinitions.mobile.SampleMobile - In launch browser
+2022-03-14 14:06:04,596 INFO  com.StepDefinitions.Hooks - =================================================================================
+2022-03-14 14:06:04,601 INFO  com.StepDefinitions.Hooks - === END OF SCENARIO : Verifying Site Version, Time taken:00:00:15, Status:Passed ===
+2022-03-14 14:06:04,601 INFO  com.StepDefinitions.Hooks - =================================================================================
