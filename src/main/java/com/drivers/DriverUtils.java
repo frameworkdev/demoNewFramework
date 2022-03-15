@@ -121,8 +121,7 @@ public class DriverUtils extends Action{
 			mutableCapabilities.setCapability("chromeOptions", chromeOptions);
 			// chrome related options -- end
 			webDriver.manage().window().maximize();
-			webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			webDriver.get(Constants.URL);
+			webDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			break;
 		case "firefox":
 			System.setProperty("webdriver.gecko.driver", Constants.FIREFOX_DRIVER_PATH);
@@ -132,8 +131,7 @@ public class DriverUtils extends Action{
 			firefoxOptions.addArguments("-enable-sync", "--start-maximized");
 			mutableCapabilities.setCapability("moz:firefoxOptions", firefoxOptions);
 			webDriver.manage().window().maximize();
-			webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			webDriver.get(Constants.URL);
+			webDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			break;
 		}
 		webDriverMap.put(device, webDriver);

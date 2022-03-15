@@ -1,0 +1,24 @@
+2022-02-27 19:30:34,364 ERROR com.StepDefinitions.Hooks - Entered init method
+2022-02-27 19:30:34,365 DEBUG com.StepDefinitions.Hooks - Start time is:1645970434365
+2022-02-27 19:30:34,370 ERROR com.StepDefinitions.Hooks - ####################################################################
+2022-02-27 19:30:34,372 INFO  com.StepDefinitions.Hooks - ###########  START OF SCENARIO : Title of your scenario  ###########
+2022-02-27 19:30:34,372 INFO  com.StepDefinitions.Hooks - ####################################################################
+2022-02-27 19:30:34,528 INFO  com.StepDefinitions.Hooks - #################################################################################
+2022-02-27 19:30:34,531 INFO  com.StepDefinitions.Hooks - ### END OF SCENARIO : Title of your scenario, Time taken:00:00, Status:Passed ###
+2022-02-27 19:30:34,536 INFO  com.StepDefinitions.Hooks - #################################################################################
+2022-02-27 19:33:31,351 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-02-27 19:33:31,352 INFO  com.StepDefinitions.Hooks - Start time is:1645970611352
+2022-02-27 19:33:31,356 INFO  com.StepDefinitions.Hooks - ####################################################################
+2022-02-27 19:33:31,358 INFO  com.StepDefinitions.Hooks - ###########  START OF SCENARIO : Title of your scenario  ###########
+2022-02-27 19:33:31,358 INFO  com.StepDefinitions.Hooks - ####################################################################
+2022-02-27 19:33:31,543 INFO  com.StepDefinitions.Hooks - #################################################################################
+2022-02-27 19:33:31,546 INFO  com.StepDefinitions.Hooks - ### END OF SCENARIO : Title of your scenario, Time taken:00:00, Status:Passed ###
+2022-02-27 19:33:31,546 INFO  com.StepDefinitions.Hooks - #################################################################################
+2022-02-27 19:38:33,686 INFO  com.StepDefinitions.Hooks - Entered init method
+2022-02-27 19:38:33,687 INFO  com.StepDefinitions.Hooks - Start time is:1645970913687
+2022-02-27 19:38:33,691 INFO  com.StepDefinitions.Hooks - ####################################################################
+2022-02-27 19:38:33,692 INFO  com.StepDefinitions.Hooks - ###########  START OF SCENARIO : Title of your scenario  ###########
+2022-02-27 19:38:33,693 INFO  com.StepDefinitions.Hooks - ####################################################################
+2022-02-27 19:38:33,862 INFO  com.StepDefinitions.Hooks - #################################################################################
+2022-02-27 19:38:33,864 INFO  com.StepDefinitions.Hooks - ### END OF SCENARIO : Title of your scenario, Time taken:00:00, Status:Passed ###
+2022-02-27 19:38:33,865 INFO  com.StepDefinitions.Hooks - #################################################################################
