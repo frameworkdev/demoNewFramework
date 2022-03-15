@@ -6,8 +6,8 @@ import java.nio.file.Paths;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -48,6 +48,7 @@ public class DriverUtils extends Action{
 	public WebDriver getWebDriver(String aDevice) {
 		return webDriverMap.get(aDevice);
 	}
+	
 
 	public void setScenario(Scenario scenario) {
 		DriverUtils.scenario = scenario;
@@ -122,7 +123,6 @@ public class DriverUtils extends Action{
 			webDriver.manage().window().maximize();
 			webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			webDriver.get(Constants.URL);
-			
 			break;
 		case "firefox":
 			System.setProperty("webdriver.gecko.driver", Constants.FIREFOX_DRIVER_PATH);
@@ -134,16 +134,16 @@ public class DriverUtils extends Action{
 			webDriver.manage().window().maximize();
 			webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			webDriver.get(Constants.URL);
-			
 			break;
 		}
-		
+		webDriverMap.put(device, webDriver);
 	}
 
 	public void closeDrivers(boolean isScenarioFailed) {
 
 		try {
 			//switch needs to be added
+			
 			webDriver.quit();
 			log.info("WebDriver is closed");
 

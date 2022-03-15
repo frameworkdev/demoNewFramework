@@ -42,10 +42,10 @@ public class SampleMobile extends Action{
 	@Given("^launch browser$")
 	public void launch_browser() throws Throwable {
 		try {
-			
+		
 		log.info("In launch browser");
 		driverUtils.initializeDrivers();
-		
+		pomWeb.getWebHomePage().addCommentAndScreenshot_Web("web page is opened");
 		}
 		catch(Exception e) {
 			log.info(e.getMessage());

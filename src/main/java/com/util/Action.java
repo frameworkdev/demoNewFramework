@@ -7,8 +7,8 @@ import java.time.Duration;
 import java.util.NoSuchElementException;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -37,7 +37,7 @@ public class Action {
 		
 	}
 
-	private static final Logger sLogger = LogManager.getLogger(Action.class.getName());
+	public static final Logger log = LogManager.getLogger(Action.class.getName());
 	private WebDriver webDriver = null;
 	private AppiumDriver<WebElement> AppiumDriver;
 	public DriverUtils driverUtils;
@@ -64,42 +64,8 @@ public class Action {
 	 * @param comment
 	 */
 	public static void addComment(String comment) {
-		sLogger.debug(comment);
+		log.info(comment);
 		Reporter.addStepLog(comment);
-	}
-	
-	public void addCommentAndScreenshot_Web(String comment){
-		try {
-			System.out.println("In screenshot method");
-			addComment(comment + " [Screenshot]");
-			Reporter.addScreenCaptureFromPath(takeScreenshot_Web());
-		}catch(Exception e) {
-			sLogger.error(e.getMessage(), e);
-			Assert.fail("Failed in addCommentAndScreenshot()"+e.getMessage(), e);
-		}	
-	}
-
-
-
-	public String takeScreenshot_Web()
-	{
-		String screenshotDest=null;
-
-		try {
-
-			File srcFile = ((TakesScreenshot) getWebDriver()).getScreenshotAs(OutputType.FILE); 
-			File screenshotsDir = new File(SCREENSHOTS_FOLDER_NAME + DriverUtils.getScenario().getName());			
-			if(!screenshotsDir.exists())
-				screenshotsDir.mkdirs();
-
-			screenshotDest = screenshotsDir.getPath() + "/" +  DATE_FORMATER_IMAGE_FOLDER.format(System.currentTimeMillis()) + ".png";
-			File destFile = new File(screenshotDest);
-			FileUtils.copyFile(srcFile, destFile);
-
-		} catch (IOException e) {
-			Reporter.addStepLog("Failed in takeScreenshot");
-			e.printStackTrace();
-		}return screenshotDest;
 	}
 
 	

@@ -17,11 +17,11 @@ public class PageObjectManagerWeb {
 	}
 	
 	public WebDriver getWebDriver() {
-		return driverUtils.getWebDriver();
+		return driverUtils.getWebDriver(device);
 	}
 	
 	public WebHomePage getWebHomePage() {
-		return (webHomePage == null) ? webHomePage = new WebHomePage(driverUtils) : webHomePage;
+		return (webHomePage == null) ? webHomePage = new WebHomePage(driverUtils, device) : webHomePage;
 	}
 
 }
