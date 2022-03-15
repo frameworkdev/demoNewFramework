@@ -7,8 +7,8 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Set;
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -28,12 +28,18 @@ public class WebDriverActions extends Action{
 	public WebDriverActions(DriverUtils driverUtils) {
 		// TODO Auto-generated constructor stub
 	}
-	private static final Logger sLogger = LogManager.getLogger(WebDriverActions.class.getName());
-	private static final String SCREENSHOTS_FOLDER_NAME = System.getProperty("user.dir")+"\\reports\\screenshots";
+	private static final Logger log = LogManager.getLogger(WebDriverActions.class.getName());
+	private static final String SCREENSHOTS_FOLDER_NAME = System.getProperty("user.dir")+"\\reports\\screenshots\\";
 	public DriverUtils driverUtils;
+	private String device;
 	
-	public WebDriver getDriver() {
-		return driverUtils.getWebDriver();
+	public WebDriverActions(DriverUtils aDriverUtils, String aDevice) {
+		driverUtils = aDriverUtils;
+		device = aDevice;
+	}
+	
+	public WebDriver getWebDriver() {
+		return driverUtils.getWebDriver(device);
 	}
 
 	/**
@@ -42,7 +48,7 @@ public class WebDriverActions extends Action{
 	 * @return null
 	 */
 	public void waitForElement(WebElement element, int time) {
-		WebDriverWait wait = new WebDriverWait(getDriver(), time);
+		WebDriverWait wait = new WebDriverWait(getWebDriver(), time);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	
@@ -53,7 +59,7 @@ public class WebDriverActions extends Action{
 	 */
 	
 	public WebDriverActions waitForClickable(WebElement element, long timeoutInSeconds ) {
-		WebDriverWait wait = new WebDriverWait(getDriver(), timeoutInSeconds);
+		WebDriverWait wait = new WebDriverWait(getWebDriver(), timeoutInSeconds);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 		return this;
 	}
@@ -65,7 +71,7 @@ public class WebDriverActions extends Action{
 	 */
 	public WebElement waitForElement(WebElement element) {
 
-		Wait<WebDriver> wait = new FluentWait<WebDriver>(getDriver()).withTimeout(Duration.ofSeconds(60))
+		Wait<WebDriver> wait = new FluentWait<WebDriver>(getWebDriver()).withTimeout(Duration.ofSeconds(60))
 				.pollingEvery(Duration.ofMillis(2000)).ignoring(NoSuchElementException.class);
 		return wait.until(ExpectedConditions.visibilityOf(element));
 	}
@@ -81,7 +87,7 @@ public class WebDriverActions extends Action{
 			waitForElement(element).click();
 			addCommentAndScreenshot_Web(context+" is clicked");
 		}catch(Exception e) {
-			sLogger.error(e.getMessage(), e);
+			log.error(e.getMessage(), e);
 			addCommentAndScreenshot_Web(context+ "is not clicked");
 			Assert.fail(context+ "is not clicked", e);
 		}
@@ -110,7 +116,7 @@ public class WebDriverActions extends Action{
 	 * @return null
 	 */
 	public void doubleClickWebelement(WebElement doubleclickonWebElement) throws InterruptedException {
-		Actions builder = new Actions(getDriver());
+		Actions builder = new Actions(getWebDriver());
 		builder.doubleClick(doubleclickonWebElement).perform();
 		Thread.sleep(2000);
 	}
@@ -119,9 +125,9 @@ public class WebDriverActions extends Action{
 		try {
 			addComment(comment + " [Screenshot]");
 			Reporter.addScreenCaptureFromPath(takeScreenshot_Web());
-			sLogger.debug(comment);
+			log.debug(comment);
 		}catch(Exception e) {
-			sLogger.error(e.getMessage(), e);
+			log.error(e.getMessage(), e);
 			Assert.fail("Failed in addCommentAndScreenshot()"+e.getMessage(), e);
 		}	
 	}
@@ -154,35 +160,35 @@ public class WebDriverActions extends Action{
 
 	public void switchToOldWindow() {
 		
-		Set<String> s = getDriver().getWindowHandles();
+		Set<String> s = getWebDriver().getWindowHandles();
 		Iterator<String> itr = s.iterator();
 		String w1 = itr.next();
 		String w2 = itr.next();
-		sLogger.debug("Switching to old window : "+w1+" from window : "+w2);
-		getDriver().switchTo().window(w1);
+		log.debug("Switching to old window : "+w1+" from window : "+w2);
+		getWebDriver().switchTo().window(w1);
 	}
 	
 	public void switchToNewWindow() {
 		
-		Set<String> s = getDriver().getWindowHandles();
+		Set<String> s = getWebDriver().getWindowHandles();
 		Iterator<String> itr = s.iterator();
 		String w1 = itr.next();
 		String w2 = itr.next();
-		sLogger.debug("Switching to new window : "+w1+" from window : "+w2);
-		getDriver().switchTo().window(w2);
+		log.debug("Switching to new window : "+w1+" from window : "+w2);
+		getWebDriver().switchTo().window(w2);
 		
 	}
 	
 	public void switchWindowByTitle(String title) {
 
-		String currentWindow = getDriver().getWindowHandle();
-		Set<String> availableWindows = getDriver().getWindowHandles();
+		String currentWindow = getWebDriver().getWindowHandle();
+		Set<String> availableWindows = getWebDriver().getWindowHandles();
 		System.out.println("WindowSize: " + availableWindows.size());
-		for (String windowId : getDriver().getWindowHandles()) {
-			System.out.println("Windows: " + getDriver().switchTo().window(windowId).getTitle());
-			if(!getDriver().switchTo().window(windowId).getTitle().contains(title)) {
+		for (String windowId : getWebDriver().getWindowHandles()) {
+			System.out.println("Windows: " + getWebDriver().switchTo().window(windowId).getTitle());
+			if(!getWebDriver().switchTo().window(windowId).getTitle().contains(title)) {
 				System.out.println("Wrong.....");
-				getDriver().switchTo().window(currentWindow);
+				getWebDriver().switchTo().window(currentWindow);
 			}
 		}
 	}
@@ -190,7 +196,7 @@ public class WebDriverActions extends Action{
 	public void switchToFrame_byWebElement(WebElement element) throws Exception {
 		
 		try {
-			getDriver().switchTo().frame(element);
+			getWebDriver().switchTo().frame(element);
 		} catch (Exception e) {
 			
 			throw e;

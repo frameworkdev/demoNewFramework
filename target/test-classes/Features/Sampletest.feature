@@ -8,6 +8,6 @@ Feature: second feature file
   Scenario: To launch Virtual football home page
     Given launch browser
     
-     @tag2
-  Scenario: To launch Virtual football home page two
-    Given launch browser
+ #    @tag2
+ # Scenario: To launch Virtual football home page two
+ #   Given launch browser
