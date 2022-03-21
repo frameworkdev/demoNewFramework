@@ -1,8 +1,8 @@
-@SbCom
-Feature: VirtualSports sportingbet features
+@betboo
+Feature: VirtualSports betboo features
 
   @siteVersion
   Scenario: Verifying Site Version
     Given launch browser
-    And enter "sportingbet" site version url
+    And enter "br.betboo" site version url
     Then verify site version

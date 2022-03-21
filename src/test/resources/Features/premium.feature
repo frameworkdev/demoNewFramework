@@ -1,8 +1,8 @@
-@SbCom
-Feature: VirtualSports sportingbet features
+@premium
+Feature: VirtualSports premium features
 
   @siteVersion
   Scenario: Verifying Site Version
     Given launch browser
-    And enter "sportingbet" site version url
+    And enter "premium" site version url
     Then verify site version
