@@ -1,31 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6691" started-at="2022-03-15T11:01:55Z" finished-at="2022-03-15T11:02:01Z">
+  <suite name="Default suite" duration-ms="50029" started-at="2022-03-21T07:05:33Z" finished-at="2022-03-21T07:06:23Z">
     <groups>
       <group name="cucumber">
-        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@ba54932]" name="feature" class="com.Runner.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@1356d4d4]" name="feature" class="com.Runner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="6691" started-at="2022-03-15T11:01:55Z" finished-at="2022-03-15T11:02:01Z">
+    <test name="Default test" duration-ms="50029" started-at="2022-03-21T07:05:33Z" finished-at="2022-03-21T07:06:23Z">
       <class name="com.Runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Runner.TestRunner@ba54932]" name="setUpClass" is-config="true" duration-ms="426" started-at="2022-03-15T16:31:55Z" finished-at="2022-03-15T16:31:55Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Runner.TestRunner@1356d4d4]" name="setUpClass" is-config="true" duration-ms="512" started-at="2022-03-21T12:35:33Z" finished-at="2022-03-21T12:35:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@ba54932]" name="feature" duration-ms="5660" started-at="2022-03-15T16:31:55Z" description="Executions of Cucumber Feature" data-provider="features" finished-at="2022-03-15T16:32:01Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@1356d4d4]" name="feature" duration-ms="8416" started-at="2022-03-21T12:35:34Z" description="Executions of Cucumber Feature" data-provider="features" finished-at="2022-03-21T12:35:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[All features]]>
+                <![CDATA[VirtualSports bwin features]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Runner.TestRunner@ba54932]" name="tearDownClass" is-config="true" duration-ms="477" started-at="2022-03-15T16:32:01Z" finished-at="2022-03-15T16:32:01Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@1356d4d4]" name="feature" duration-ms="5953" started-at="2022-03-21T12:35:42Z" description="Executions of Cucumber Feature" data-provider="features" finished-at="2022-03-21T12:35:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VirtualSports sportingbet features]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@1356d4d4]" name="feature" duration-ms="5679" started-at="2022-03-21T12:35:48Z" description="Executions of Cucumber Feature" data-provider="features" finished-at="2022-03-21T12:35:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VirtualSports betboo features]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@1356d4d4]" name="feature" duration-ms="5454" started-at="2022-03-21T12:35:54Z" description="Executions of Cucumber Feature" data-provider="features" finished-at="2022-03-21T12:35:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VirtualSports gamebookers features]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@1356d4d4]" name="feature" duration-ms="5832" started-at="2022-03-21T12:35:59Z" description="Executions of Cucumber Feature" data-provider="features" finished-at="2022-03-21T12:36:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VirtualSports partycasino features]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@1356d4d4]" name="feature" duration-ms="5801" started-at="2022-03-21T12:36:05Z" description="Executions of Cucumber Feature" data-provider="features" finished-at="2022-03-21T12:36:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VirtualSports PartyPoker features]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@1356d4d4]" name="feature" duration-ms="6138" started-at="2022-03-21T12:36:11Z" description="Executions of Cucumber Feature" data-provider="features" finished-at="2022-03-21T12:36:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VirtualSports premium features]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@1356d4d4]" name="feature" duration-ms="5543" started-at="2022-03-21T12:36:17Z" description="Executions of Cucumber Feature" data-provider="features" finished-at="2022-03-21T12:36:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VirtualSports sportingbet.co.za features]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Runner.TestRunner@1356d4d4]" name="tearDownClass" is-config="true" duration-ms="549" started-at="2022-03-21T12:36:23Z" finished-at="2022-03-21T12:36:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

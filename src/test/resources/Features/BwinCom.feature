@@ -1,8 +1,8 @@
-@SbCom
-Feature: VirtualSports sportingbet features
+@BwinCom
+Feature: VirtualSports bwin features
 
   @siteVersion
   Scenario: Verifying Site Version
     Given launch browser
-    And enter "sportingbet" site version url
+    And enter "bwin" site version url
     Then verify site version

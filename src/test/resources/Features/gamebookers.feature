@@ -1,8 +1,8 @@
-@SbCom
-Feature: VirtualSports sportingbet features
+@gamebookers
+Feature: VirtualSports gamebookers features
 
   @siteVersion
   Scenario: Verifying Site Version
     Given launch browser
-    And enter "sportingbet" site version url
+    And enter "gamebookers" site version url
     Then verify site version

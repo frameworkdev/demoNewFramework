@@ -1,8 +1,8 @@
-@SbCom
-Feature: VirtualSports sportingbet features
+@PartyPoker
+Feature: VirtualSports PartyPoker features
 
   @siteVersion
   Scenario: Verifying Site Version
     Given launch browser
-    And enter "sportingbet" site version url
+    And enter "partypoker" site version url
     Then verify site version
