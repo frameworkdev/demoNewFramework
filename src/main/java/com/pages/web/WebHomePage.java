@@ -14,11 +14,15 @@ public class WebHomePage extends WebDriverActions{
 	public WebHomePage(DriverUtils aDriverUtils, String aDevice) {
 		super(aDriverUtils, aDevice);
 		PageFactory.initElements(driverUtils.getWebDriver(aDevice), this);
-		
-		
 	}
 	
 	@FindBy(xpath = "//*[contains(text(),'MobileGambling')]")
 	public WebElement txt_mobileGambling;
+	
+	@FindBy(xpath = "//*[text()='Content - Hekaton Cache']")
+	public WebElement clr_SitecoreService;
+	
+	@FindBy(xpath = "//*[text()='Content - Templates']")
+	public WebElement clr_ContentTemplates;
 
 }

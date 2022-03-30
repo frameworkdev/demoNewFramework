@@ -1,4 +1,4 @@
-@sportingbet.co.za
+@sportingbet.co.za @VirtualSports
 Feature: VirtualSports sportingbet.co.za features
 
   @siteVersion
@@ -9,5 +9,7 @@ Feature: VirtualSports sportingbet.co.za features
 
   @healthcheck
   Scenario: Verifying health check
-    Given enter  "sportingbet.co.za" health url
+    Given launch browser
+    And enter "sportingbet.co.za" health url
     Then verify color of Sitecore service
+    Then verify color of Content Templates
