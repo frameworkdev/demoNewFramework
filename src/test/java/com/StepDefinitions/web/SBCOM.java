@@ -21,6 +21,8 @@ public class SBCOM extends Action {
 	private DriverUtils driverUtils;
 	private PageObjectManagerWeb pomWeb;
 	public String versionInfo;
+	public String sitecoreService;
+	public String contentTemplates;
 
 	private static final Logger log = LogManager.getLogger(SBCOM.class.getName());
 
@@ -30,7 +32,7 @@ public class SBCOM extends Action {
 	}
 
 	@Given("^enter \"([^\"]*)\" site version url$")
-	public void enter_url(String arg1){
+	public void enter_url(String arg1) {
 		try {
 			String siteVersionURL = pomWeb.getUrlCreation().getSiteVersionURL(arg1);
 			pomWeb.getWebDriver().get(siteVersionURL);
@@ -45,23 +47,57 @@ public class SBCOM extends Action {
 	}
 
 	@Then("^verify site version$")
-	public void verify_site_version(){
+	public void verify_site_version() {
 
 		try {
 			Assert.assertEquals(versionInfo, StringConstants.webVersionCheck);
 			pomWeb.getWebHomePage().addCommentAndScreenshot_Web("Verified");
-		} catch (Exception e) {
+		} catch (AssertionError e) {
 			pomWeb.getWebHomePage().addCommentAndScreenshot_Web("Failed");
+			Assert.fail();
 		}
 	}
 
-	@Given("^enter  \"([^\"]*)\" health url$")
-	public void enter_health_url(String arg1){
+	@Given("^enter \"([^\"]*)\" health url$")
+	public void enter_health_url(String arg1) {
+		try {
+			String healthURL = pomWeb.getUrlCreation().getHealthURL(arg1);
+			pomWeb.getWebDriver().get(healthURL);
+			pomWeb.getWebHomePage().waitForElement(pomWeb.getWebHomePage().clr_SitecoreService,180);
+			sitecoreService = pomWeb.getWebHomePage().clr_SitecoreService.getCssValue("color");
+			contentTemplates = pomWeb.getWebHomePage().clr_ContentTemplates.getCssValue("color");
+			pomWeb.getWebHomePage().addCommentAndScreenshot_Web("verified");
+		} catch (Exception e) {
+			pomWeb.getWebHomePage().addCommentAndScreenshot_Web("Unable to verify health page");
+			log.debug(e.getMessage());
+			Assert.fail();
+		}
 
 	}
 
 	@Then("^verify color of Sitecore service$")
-	public void verify_color_of_Sitecore_service() throws Throwable {
+	public void verify_color_of_Sitecore_service() {
+		try {
+			Assert.assertEquals(sitecoreService, StringConstants.healthColorCheck);
+			pomWeb.getWebHomePage().addCommentAndScreenshot_Web("Health check verified");
+		} catch (AssertionError e) {
+			pomWeb.getWebHomePage().addCommentAndScreenshot_Web("Health check failed");
+			log.debug(e.getMessage());
+			Assert.fail();
+		}
 
 	}
+
+	@Then("^verify color of Content Templates$")
+	public void verify_color_of_Content_Templates() {
+		try {
+			Assert.assertEquals(contentTemplates, StringConstants.healthColorCheck);
+			pomWeb.getWebHomePage().addCommentAndScreenshot_Web("Health check verified");
+		} catch (AssertionError e) {
+			pomWeb.getWebHomePage().addCommentAndScreenshot_Web("Health check failed");
+			log.debug(e.getMessage());
+			Assert.fail();
+		}
+	}
+
 }
